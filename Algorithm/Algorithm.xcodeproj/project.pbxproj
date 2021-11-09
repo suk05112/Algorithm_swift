@@ -23,6 +23,7 @@
 		03AEC926271AA82E00A8C051 /* binary_search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = binary_search1.swift; path = ../binary_search1.swift; sourceTree = "<group>"; };
 		03AEC92827215BB900A8C051 /* hash1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = hash1.swift; path = Algorithm/Programmers/hash1.swift; sourceTree = SOURCE_ROOT; };
 		03F6464B27290F7A004FAFB7 /* sort2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sort2.swift; sourceTree = "<group>"; };
+		03F6464E272A94E2004FAFB7 /* 2020_kakao_blind_string_compress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2020_kakao_blind_string_compress.swift; path = ../../Programmers/2020_kakao_blind_string_compress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		03AEC921271AA68900A8C051 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				03F6464E272A94E2004FAFB7 /* 2020_kakao_blind_string_compress.swift */,
 				03F6464B27290F7A004FAFB7 /* sort2.swift */,
 				03AEC92827215BB900A8C051 /* hash1.swift */,
 				03AEC926271AA82E00A8C051 /* binary_search1.swift */,
@@ -271,6 +273,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithm-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -289,6 +292,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithm-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
