@@ -6,6 +6,10 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		03CDED362742010700F9BD1D /* 2019_kakao_blind_openchatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDED352742010700F9BD1D /* 2019_kakao_blind_openchatting.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		03AEC914271AA66A00A8C051 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +26,7 @@
 		03AEC916271AA66A00A8C051 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AEC926271AA82E00A8C051 /* binary_search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = binary_search1.swift; path = ../binary_search1.swift; sourceTree = "<group>"; };
 		03AEC92827215BB900A8C051 /* hash1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = hash1.swift; path = Algorithm/Programmers/hash1.swift; sourceTree = SOURCE_ROOT; };
+		03CDED352742010700F9BD1D /* 2019_kakao_blind_openchatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2019_kakao_blind_openchatting.swift; path = Programmers/2019_kakao_blind_openchatting.swift; sourceTree = SOURCE_ROOT; };
 		03F6464B27290F7A004FAFB7 /* sort2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sort2.swift; sourceTree = "<group>"; };
 		03F6464E272A94E2004FAFB7 /* 2020_kakao_blind_string_compress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2020_kakao_blind_string_compress.swift; path = ../../Programmers/2020_kakao_blind_string_compress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +81,7 @@
 				03F6464B27290F7A004FAFB7 /* sort2.swift */,
 				03AEC92827215BB900A8C051 /* hash1.swift */,
 				03AEC926271AA82E00A8C051 /* binary_search1.swift */,
+				03CDED352742010700F9BD1D /* 2019_kakao_blind_openchatting.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CDED362742010700F9BD1D /* 2019_kakao_blind_openchatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
