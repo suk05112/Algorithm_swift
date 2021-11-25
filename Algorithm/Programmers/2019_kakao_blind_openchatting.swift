@@ -9,6 +9,8 @@ import Foundation
 
 
 func solution(_ record:[String]) -> [String] {
+    
+
 
     var user: [String: String] = [:]
     var result: [String] = []
