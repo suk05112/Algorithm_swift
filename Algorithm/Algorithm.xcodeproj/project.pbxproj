@@ -19,6 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		039492A72750AE87005630A8 /* 1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 1546.swift; path = BOJ/1546.swift; sourceTree = SOURCE_ROOT; };
+		039492A92750C264005630A8 /* 1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 1010.swift; path = BOJ/1010.swift; sourceTree = SOURCE_ROOT; };
 		03AEC916271AA66A00A8C051 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AEC926271AA82E00A8C051 /* binary_search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = binary_search1.swift; path = ../binary_search1.swift; sourceTree = "<group>"; };
 		03AEC92827215BB900A8C051 /* hash1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = hash1.swift; path = Algorithm/Programmers/hash1.swift; sourceTree = SOURCE_ROOT; };
@@ -68,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				03FDF9F8274F1AC500ACD257 /* devide.swift */,
+				039492A72750AE87005630A8 /* 1546.swift */,
+				039492A92750C264005630A8 /* 1010.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
