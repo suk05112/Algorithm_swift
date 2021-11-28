@@ -2,17 +2,18 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by 한수진 on 2021/11/27.
+//  Created by 한수진 on 2021/11/28.
 //
 
 import Foundation
 
-while let line = readLine() {
-    let input = line.components(separatedBy: " ")
+var numbers = Set<Int>()
 
-    let A = input[0]
-    let B = input[1]
+for _ in 0..<10{
+    let input = Int(readLine()!)!
 
-    print(A + B)
-        
+    
+    numbers.insert(input%42)
 }
+
+print(numbers.count)

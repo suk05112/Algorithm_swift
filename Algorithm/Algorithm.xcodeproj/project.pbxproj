@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039492B827527CDD005630A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039492B727527CDD005630A8 /* main.swift */; };
+		039492C62753CEBE005630A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039492C52753CEBE005630A8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +31,14 @@
 		039492B127527759005630A8 /* 2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2562.swift; path = BOJ/2562.swift; sourceTree = SOURCE_ROOT; };
 		039492B327527953005630A8 /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2739.swift; path = BOJ/2739.swift; sourceTree = SOURCE_ROOT; };
 		039492B527527B42005630A8 /* 10952.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 10952.swift; path = BOJ/10952.swift; sourceTree = SOURCE_ROOT; };
-		039492B727527CDD005630A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = BOJ/main.swift; sourceTree = SOURCE_ROOT; };
+		039492B727527CDD005630A8 /* 10951.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 10951.swift; path = BOJ/10951.swift; sourceTree = SOURCE_ROOT; };
+		039492B927528571005630A8 /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 10950.swift; path = BOJ/10950.swift; sourceTree = SOURCE_ROOT; };
+		039492BB27528AB0005630A8 /* 10869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 10869.swift; path = BOJ/10869.swift; sourceTree = SOURCE_ROOT; };
+		039492BD27528BB9005630A8 /* 8958.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 8958.swift; path = BOJ/8958.swift; sourceTree = SOURCE_ROOT; };
+		039492BF27529220005630A8 /* 2920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2920.swift; path = BOJ/2920.swift; sourceTree = SOURCE_ROOT; };
+		039492C127529A39005630A8 /* 2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2439.swift; path = BOJ/2439.swift; sourceTree = SOURCE_ROOT; };
+		039492C327529D36005630A8 /* 10871.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 10871.swift; path = BOJ/10871.swift; sourceTree = SOURCE_ROOT; };
+		039492C52753CEBE005630A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = BOJ/main.swift; sourceTree = SOURCE_ROOT; };
 		03AEC916271AA66A00A8C051 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AEC926271AA82E00A8C051 /* binary_search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = binary_search1.swift; path = ../binary_search1.swift; sourceTree = "<group>"; };
 		03AEC92827215BB900A8C051 /* hash1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = hash1.swift; path = Algorithm/Programmers/hash1.swift; sourceTree = SOURCE_ROOT; };
@@ -89,7 +96,14 @@
 				039492B127527759005630A8 /* 2562.swift */,
 				039492B327527953005630A8 /* 2739.swift */,
 				039492B527527B42005630A8 /* 10952.swift */,
-				039492B727527CDD005630A8 /* main.swift */,
+				039492B727527CDD005630A8 /* 10951.swift */,
+				039492B927528571005630A8 /* 10950.swift */,
+				039492BB27528AB0005630A8 /* 10869.swift */,
+				039492BD27528BB9005630A8 /* 8958.swift */,
+				039492BF27529220005630A8 /* 2920.swift */,
+				039492C127529A39005630A8 /* 2439.swift */,
+				039492C327529D36005630A8 /* 10871.swift */,
+				039492C52753CEBE005630A8 /* main.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -165,7 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039492B827527CDD005630A8 /* main.swift in Sources */,
+				039492C62753CEBE005630A8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
