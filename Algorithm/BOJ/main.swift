@@ -2,18 +2,16 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by 한수진 on 2021/11/28.
+//  Created by 한수진 on 2021/11/29.
 //
 
 import Foundation
 
-var numbers = Set<Int>()
+let numbers = readLine()!.components(separatedBy: " ").map{ Int(String($0))!}
+var ans:Int = 0
 
-for _ in 0..<10{
-    let input = Int(readLine()!)!
-
-    
-    numbers.insert(input%42)
+for number in numbers{
+    ans += number*number
 }
 
-print(numbers.count)
+print(ans%10)
