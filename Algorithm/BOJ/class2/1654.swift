@@ -7,7 +7,9 @@
 
 import Foundation
 
-let input = readLine()!.components(separatedBy: " ").map{ Int(String($0))!}
+//let input = readLine()!.components(separatedBy: " ").map{ Int(String($0))!}
+let input = readLine()!.split(separator: " ").map{ Int(String($0))!} //더 빠른 방법
+ 
 let K = input[0]; let N = input[1]
 var lines:[Int] = []
 
@@ -16,34 +18,34 @@ for _ in 0..<K{
 }
 
 var start = 1
+var end = lines.max()!/(K/lines.count)
+var mid = 0
+
+//upper bound
+end += 1
+while(start<end){
+    var count = 0
+    mid = (start+end)/2
+    for line in lines {
+        count += (line/mid)
+    }
+    
+    if count<N{ //랜선이 부족하면 길이를 더 짧게
+        end = mid
+    }
+    else{
+        start = mid+1
+    }
+}
+
+print(end-1)
+
+
+/*
+var start = 1
 var end = lines.max()!
 var mid = (start + end)/2
-//print("start : ", start, "end : ", end, "\n")
-//var quoti:Int = 0
-//
-//while(quoti != N){
-//    quoti = 0
-//
-//    lines.forEach{
-//        quoti += $0/mid
-//    }
-//
-//    print("quoti = ", quoti, "mid = ", mid)
-//
-//    if(quoti > (N-1)){
-//        start = mid
-//
-//    }else if(quoti < (N-1)){
-//        end = mid
-//    }
-//    else{
-//        print("정답 : ", mid-1)
-//        break
-//    }
-//    print("start : ", start, "end : ", end, "\n")
-//    mid = (start + end)/2
-//
-//}
+
 
 var result = 0
 
@@ -70,3 +72,4 @@ while (start <= end){
 print("result ", result)
 print("out mid :" , mid)
 
+*/
