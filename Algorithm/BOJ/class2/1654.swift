@@ -17,6 +17,7 @@ for _ in 0..<K{
     lines.append(Int(readLine()!)!)
 }
 
+
 var start = 1
 var end = lines.max()!/(K/lines.count)
 var mid = 0
@@ -39,6 +40,37 @@ while(start<end){
 }
 
 print(end-1)
+
+
+/*
+var mid: Int
+let arr:[Int] = [1,2,4,4,4,7,11,13,14]
+
+//Upper Bound
+while(start<end){
+    mid = (start+end)/2
+    
+    if arr[mid] <= K{
+        start = mid+1
+    }
+    else{
+        end = mid
+    }
+}
+
+//Lower Bound
+while(start<end){
+    mid = (start+end)/2
+    
+    if arr[mid] < K{
+        start = mid+1
+    }
+    else{
+        end = mid
+    }
+}
+
+*/
 
 
 /*
